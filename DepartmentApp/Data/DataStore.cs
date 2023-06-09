@@ -14,6 +14,7 @@ namespace DepartmentApp.Data
             new Department(3,"FINANCE"),
             new Department(4,"Marketing"),
             new Department(5,"Library"),
+            new Department(6,"Customer Relation"),
             };
     }
 }
