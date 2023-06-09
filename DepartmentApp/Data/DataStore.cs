@@ -6,12 +6,14 @@ namespace DepartmentApp.Data
     /// Class to store Department and Employee Lists
     /// </summary>
     public static class DataStore
-    {    
+    {
         public static List<Department>? Departments { get; set; } =
-            new List<Department>() { 
+            new List<Department>() {
             new Department(1,"IT"),
             new Department(2,"HR"),
             new Department(3,"FINANCE"),
+            new Department(4,"Marketing"),
+            new Department(5,"Library"),
             };
     }
 }
